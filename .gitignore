@@ -1,0 +1,49 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+**/target/
+**/native
+**/image-dump
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+.DS_Store
+**/.DS_Store
+
+*.class
+**/reports
+
+# clean up later
+graalvm/assisted-configuration/META-INF/
+graalvm/assisted-configuration/reflection
+graalvm/serialization/serialization
+graalvm/serialization/serialized_objects_in_stream
+spring-native/serialization-agent/serialized_objects_in_stream
+spring-native/serialization/serialized_objects_in_stream
